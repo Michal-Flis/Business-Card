@@ -1,0 +1,136 @@
+/* Global */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* Nawigacja */
+
+nav {
+  width: 100%;
+  background-image: url("../img/nawigacja.jpg");
+  background-position: top center;
+  height: 10vh;
+}
+
+ul {
+  text-align: right;
+}
+
+li {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-top: 30px;
+  padding-right: 20px;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 20px;
+  color: #dfe4ea;
+}
+
+.important {
+  padding: 0 20px;
+  border-bottom: 4px solid #dfe4ea;
+  margin: 0 40px 0 120px;
+}
+
+.btn:hover {
+  border-bottom: 4px solid red;
+  color: red;
+  font-weight: bold;
+
+}
+
+/* Header */
+
+header {
+  background-image: url("../img/header.jpg");
+  background-position: center;
+  width: 100%;
+  height: 50vh;
+  margin-top: 15px;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: 6px underline;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 60px;
+  padding-top: 220px;
+}
+
+/* Main */
+
+main {
+  font-size: 0;
+  text-align: center;
+  background-color: #393c42;
+  margin-top: 5px;
+}
+.gallery {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.gallery a {
+  display: inline-block;
+  font-size: 15px;
+  padding: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: hsl(348, 100%, 55%);
+  margin-top: 20px;
+}
+
+.gallery a:hover {
+  border-bottom: 3px solid #eccc68;
+  border-top: none;
+  color: #eccc68;
+  font-weight: 800;
+}
+
+.gallery img {
+  width: 100%;
+  height: 50vh;
+}
+
+.gallery p {
+  font-size: 20px;
+  padding-top: 20px;
+  color: #eccc68;
+}
+
+.first {
+  padding-top: 50px;
+}
+
+.second {
+  padding: 50px 0;
+}
+
+/* Footer */
+
+footer {
+  width: 100%;
+  height: 5vh;
+  background-color: rgb(31, 30, 30);
+  color: goldenrod;
+  text-align: right;
+  padding: 10px 150px 0 0;
+  margin-top: 2px;
+}
